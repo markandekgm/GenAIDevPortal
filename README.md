@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # GenAI-Integrated-Portal
 
@@ -27,3 +28,7 @@ npm start
 
 3. Configure scripts in /scripts with your API keys and project details.
 4. Configure Azure DevOps pipeline using provided YAML file in /pipelines.
+=======
+# GenAIDevPortal
+GenAIDevPortal
+>>>>>>> c8963849a41d9a4ec13f54df6257cae82e81978d
