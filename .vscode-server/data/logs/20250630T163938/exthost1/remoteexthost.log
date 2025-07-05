@@ -1,0 +1,181 @@
+2025-06-30 16:39:42.388 [info] Extension host with pid 26859 started
+2025-06-30 16:39:43.661 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-30 16:39:43.664 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-06-30 16:39:43.665 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2025-06-30 16:39:44.789 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2025-06-30 16:39:44.789 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-06-30 16:39:45.431 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-06-30 16:39:45.432 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-06-30 16:39:46.314 [info] Eager extensions activated
+2025-06-30 16:39:46.315 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-30 16:39:46.319 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-30 16:44:05.468 [error] Error: write ECONNRESET
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:95:16)
+	at writevGeneric (node:internal/stream_base_commons:139:26)
+	at Socket._writeGeneric (node:net:951:11)
+	at Socket._writev (node:net:960:8)
+	at doWrite (node:internal/streams/writable:588:12)
+	at clearBuffer (node:internal/streams/writable:766:5)
+	at Writable.uncork (node:internal/streams/writable:523:7)
+	at ClientRequest._flushOutput (node:_http_outgoing:1177:10)
+	at ClientRequest._flush (node:_http_outgoing:1146:22)
+	at onSocketNT (node:_http_client:903:9)
+	at processTicksAndRejections (node:internal/process/task_queues:83:21)
+	at runNextTicks (node:internal/process/task_queues:64:3)
+	at listOnTimeout (node:internal/timers:540:9)
+	at process.processTimers (node:internal/timers:514:7)
+2025-06-30 17:42:59.126 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+2025-06-30 19:56:21.652 [error] Error: write ECONNRESET
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:95:16)
+2025-06-30 20:36:46.497 [error] Error: connect ECONNRESET 20.42.73.30:443
+	at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)
+2025-06-30 20:37:08.598 [error] Error: connect ECONNRESET 20.44.10.122:443
+	at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)
+2025-06-30 23:05:38.541 [error] Error: connect ECONNRESET 40.79.150.121:443
+	at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1606:16)
+2025-06-30 23:06:47.339 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+2025-07-01 02:19:39.624 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+2025-07-01 06:55:14.533 [error] Error: write ECONNRESET
+	at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:95:16)
+2025-07-01 13:21:49.838 [error] Error: Client network socket disconnected before secure TLS connection was established
+	at TLSSocket.onConnectEnd (node:_tls_wrap:1727:19)
+	at TLSSocket.emit (node:events:531:35)
+	at endReadableNT (node:internal/streams/readable:1696:12)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-01 17:59:37.011 [info] Extension host terminating: renderer disconnected for too long (1)
+2025-07-01 17:59:37.875 [error] Canceled: Canceled
+	at Object.f [as $0] (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:10:1082)
+	at /home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2406
+	at Array.forEach (<anonymous>)
+	at y.dispose (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2344)
+	at m.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:167:8389)
+	at $.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at F.a (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:184:7218)
+	at F.h (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:107:22030)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2025-07-01 17:59:37.876 [error] Canceled: Canceled
+	at Object.f [as $0] (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:10:1082)
+	at /home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2406
+	at Array.forEach (<anonymous>)
+	at y.dispose (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2344)
+	at m.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:167:8389)
+	at $.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at F.a (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:184:7218)
+	at F.h (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:107:22030)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2025-07-01 17:59:37.876 [error] Canceled: Canceled
+	at Object.f [as $0] (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:10:1082)
+	at /home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2406
+	at Array.forEach (<anonymous>)
+	at y.dispose (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2344)
+	at m.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:167:8389)
+	at $.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at F.a (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:184:7218)
+	at F.h (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:107:22030)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2025-07-01 17:59:38.105 [error] Canceled: Canceled
+	at Object.f [as $0] (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:10:1082)
+	at /home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2406
+	at Array.forEach (<anonymous>)
+	at y.dispose (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2344)
+	at m.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:167:8389)
+	at $.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at F.a (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:184:7218)
+	at F.h (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:107:22030)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2025-07-01 17:59:38.105 [error] Canceled: Canceled
+	at Object.f [as $0] (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:10:1082)
+	at /home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2406
+	at Array.forEach (<anonymous>)
+	at y.dispose (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2344)
+	at m.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:167:8389)
+	at $.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at F.a (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:184:7218)
+	at F.h (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:107:22030)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2025-07-01 17:59:38.105 [error] Canceled: Canceled
+	at Object.f [as $0] (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:10:1082)
+	at /home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2406
+	at Array.forEach (<anonymous>)
+	at y.dispose (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2344)
+	at m.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:167:8389)
+	at $.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at F.a (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:184:7218)
+	at F.h (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:107:22030)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2025-07-01 17:59:38.162 [error] Canceled: Canceled
+	at Object.f [as $0] (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:10:1082)
+	at /home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2406
+	at Array.forEach (<anonymous>)
+	at y.dispose (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2344)
+	at m.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:167:8389)
+	at $.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at F.a (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:184:7218)
+	at F.h (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:107:22030)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2025-07-01 17:59:38.162 [error] Canceled: Canceled
+	at Object.f [as $0] (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:10:1082)
+	at /home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2406
+	at Array.forEach (<anonymous>)
+	at y.dispose (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2344)
+	at m.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:167:8389)
+	at $.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at F.a (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:184:7218)
+	at F.h (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:107:22030)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2025-07-01 17:59:38.163 [error] Canceled: Canceled
+	at Object.f [as $0] (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:10:1082)
+	at /home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2406
+	at Array.forEach (<anonymous>)
+	at y.dispose (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2344)
+	at m.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:167:8389)
+	at $.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at F.a (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:184:7218)
+	at F.h (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:107:22030)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2025-07-01 17:59:38.165 [error] Canceled: Canceled
+	at Object.f [as $0] (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:10:1082)
+	at /home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2406
+	at Array.forEach (<anonymous>)
+	at y.dispose (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2344)
+	at m.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:167:8389)
+	at $.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at F.a (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:184:7218)
+	at F.h (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:107:22030)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2025-07-01 17:59:38.165 [error] Canceled: Canceled
+	at Object.f [as $0] (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:10:1082)
+	at /home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2406
+	at Array.forEach (<anonymous>)
+	at y.dispose (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:158:2344)
+	at m.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:167:8389)
+	at $.terminate (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:171:1513)
+	at n (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:184:10613)
+	at F.a (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:184:7218)
+	at F.h (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/workbench/api/node/extensionHostProcess.js:107:22030)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7) setContext undefined
+2025-07-01 17:59:40.558 [info] Extension host with pid 26859 exiting with code 0

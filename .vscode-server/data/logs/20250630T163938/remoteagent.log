@@ -1,0 +1,157 @@
+2025-06-30 16:39:38.842 [info] 
+
+
+
+
+2025-06-30 16:39:38.853 [info] Extension host agent started.
+2025-06-30 16:39:39.339 [info] [<unknown>][46cde3fd][ExtensionHostConnection] New connection established.
+2025-06-30 16:39:39.340 [info] [<unknown>][8ef849a6][ManagementConnection] New connection established.
+2025-06-30 16:39:39.410 [info] [<unknown>][46cde3fd][ExtensionHostConnection] <26859> Launched Extension Host Process.
+2025-06-30 16:39:48.798 [info] Getting Manifest... ms-python.python
+2025-06-30 16:39:48.803 [info] Getting Manifest... ms-python.vscode-pylance
+2025-06-30 16:39:48.874 [info] Installing extension: ms-python.vscode-pylance {"productVersion":{"version":"1.101.2","date":"2025-06-24T20:27:57.062Z"},"pinned":false,"isApplicationScoped":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/azureuser/.vscode-server/extensions/extensions.json","external":"file:///home/azureuser/.vscode-server/extensions/extensions.json","path":"/home/azureuser/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2025-06-30 16:39:48.909 [info] Installing extension: ms-python.python {"productVersion":{"version":"1.101.2","date":"2025-06-24T20:27:57.062Z"},"pinned":false,"isApplicationScoped":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/azureuser/.vscode-server/extensions/extensions.json","external":"file:///home/azureuser/.vscode-server/extensions/extensions.json","path":"/home/azureuser/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2025-06-30 16:39:50.240 [info] Getting Manifest... ms-python.python
+2025-06-30 16:39:50.464 [info] Waiting for already requested installing extension ms-python.python ms-python.vscode-pylance file:///home/azureuser/.vscode-server/extensions/extensions.json
+2025-06-30 16:46:46.630 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-30 16:48:14.730 [info] New EH opened, aborting shutdown
+2025-06-30 16:54:15.839 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-30 18:03:42.004 [warning] Failed downloading vsix. Unable to write file '/home/azureuser/.vscode-server/data/CachedExtensionVSIXs/.baeb3c73-dd81-4b58-aaa7-25b2f65eb3bd' (Error: aborted). Retry again... ms-python.vscode-pylance
+2025-06-30 18:03:46.799 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/server/node/server.main.js:198:6390)
+    at process.emit (node:events:531:35)
+2025-06-30 18:03:48.853 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-30 18:04:08.347 [info] [<unknown>][8ef849a6][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-06-30 18:05:35.208 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-30 18:06:10.547 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-30 18:07:36.949 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-30 18:08:02.406 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-30 18:08:13.406 [warning] Failed downloading vsix. read ECONNRESET. Retry again... ms-python.vscode-pylance
+2025-06-30 18:08:24.303 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-30 18:09:03.959 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-30 18:09:28.358 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-30 18:09:54.312 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-30 19:40:54.438 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-30 19:55:17.704 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-30 19:56:16.707 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-30 19:56:41.153 [error] Error while installing the extension ms-python.vscode-pylance Unable to write file '/home/azureuser/.vscode-server/data/CachedExtensionVSIXs/.e29af1ab-162f-4189-a159-5489ba119636' (Error: aborted) file:///home/azureuser/.vscode-server/extensions/extensions.json
+2025-06-30 19:57:29.355 [error] DownloadFailedWriting: Unable to write file '/home/azureuser/.vscode-server/data/CachedExtensionVSIXs/.e29af1ab-162f-4189-a159-5489ba119636' (Error: aborted)
+    at Y.download (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/server/node/server.main.js:180:121666)
+    at async n.z (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/server/node/server.main.js:180:72392)
+    at async /home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/server/node/server.main.js:180:71329
+    at async n.C (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/server/node/server.main.js:180:72885)
+    at async n.w (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/server/node/server.main.js:180:71297)
+    at async n.download (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/server/node/server.main.js:180:70497)
+    at async U.ob (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/server/node/server.main.js:180:79483)
+2025-06-30 19:59:09.212 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-30 20:00:06.218 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-30 20:00:31.964 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-30 22:20:20.241 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-30 22:29:22.311 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-30 22:37:59.904 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-30 22:41:47.861 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-30 22:46:16.023 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-30 22:48:27.014 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 00:02:43.547 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 00:07:34.451 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 00:13:13.701 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 00:23:05.064 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 00:31:58.165 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 00:44:58.477 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 00:52:44.133 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 00:58:49.002 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 01:05:34.197 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 01:17:23.164 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 01:23:13.263 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 01:31:48.177 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 01:46:03.648 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 02:21:09.121 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 02:51:29.302 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 02:55:43.712 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 03:02:52.969 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 03:15:42.478 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 03:46:00.500 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 04:37:59.106 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 43089568ms.
+2025-07-01 04:38:11.051 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 04:39:07.315 [info] Extracted extension to file:///home/azureuser/.vscode-server/extensions/ms-python.python-2025.8.0-linux-x64: ms-python.python
+2025-07-01 04:39:44.507 [info] Renamed to /home/azureuser/.vscode-server/extensions/ms-python.python-2025.8.0-linux-x64
+2025-07-01 04:39:55.550 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 04:40:28.710 [error] [/home/azureuser/.vscode-server/extensions/ms-python.python-2025.8.0-linux-x64]: Extension is not compatible with Code 1.93.0. Extension requires: ^1.95.0.
+2025-07-01 04:40:34.007 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 04:40:45.062 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 04:40:48.108 [error] [/home/azureuser/.vscode-server/extensions/ms-python.python-2025.8.0-linux-x64]: Extension is not compatible with Code 1.93.0. Extension requires: ^1.95.0.
+2025-07-01 04:40:53.260 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 04:40:57.707 [error] Error while installing the extension ms-python.python Cannot read the extension from /home/azureuser/.vscode-server/extensions/ms-python.python-2025.8.0-linux-x64 file:///home/azureuser/.vscode-server/extensions/extensions.json
+2025-07-01 04:41:02.604 [info] Finished waiting for already requested installing extension ms-python.python ms-python.vscode-pylance file:///home/azureuser/.vscode-server/extensions/extensions.json
+2025-07-01 04:41:15.901 [error] Error: Extension ms-python.python is not installed
+    at /home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/server/node/server.main.js:180:28549
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-07-01 04:52:46.177 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 05:09:26.485 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 05:27:05.156 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 05:46:26.225 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 05:57:05.978 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 06:03:34.738 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 06:12:41.796 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 06:20:54.050 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 06:26:18.812 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 06:38:06.566 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 07:08:21.140 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 07:16:29.949 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 07:24:48.269 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 07:50:37.480 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 07:54:15.889 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 07:57:11.886 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 08:00:46.695 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 08:12:03.055 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 08:27:37.527 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 08:38:43.639 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 08:50:59.047 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 08:57:56.544 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 09:02:56.797 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 09:09:03.060 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 09:19:04.367 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 09:47:12.341 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 10:02:04.057 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 10:06:05.515 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 10:11:33.626 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 10:21:37.671 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 10:29:57.382 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 10:34:32.585 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 10:51:08.761 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 10:52:52.800 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 10:55:42.157 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 10:57:43.304 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 11:01:00.870 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 11:17:33.423 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 11:22:07.538 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 11:29:39.336 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 11:34:10.646 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 11:36:38.289 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 11:38:33.944 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 11:44:06.346 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 11:54:49.756 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 12:00:54.369 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 12:06:03.220 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 12:14:21.583 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 12:20:35.331 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 12:32:40.791 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 12:42:13.907 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 12:45:45.004 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 12:48:18.507 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 12:50:30.717 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 12:53:34.569 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 12:56:50.028 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 13:01:04.627 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 13:06:00.036 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 13:12:42.832 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 13:18:59.886 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 14:07:24.243 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 14:14:02.387 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 14:20:26.997 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 14:30:50.657 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 14:51:08.627 [warning] No ptyHost heartbeat after 6 seconds
+2025-07-01 17:51:10.652 [info] [<unknown>][8ef849a6][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2025-07-01 17:59:40.963 [info] [<unknown>][46cde3fd][ExtensionHostConnection] <26859> Extension Host Process exited with code: 0, signal: null.
+2025-07-01 17:59:41.011 [info] Last EH closed, waiting before shutting down
+2025-07-01 18:04:41.011 [info] Last EH closed, shutting down

@@ -1,0 +1,33 @@
+2025-06-30 16:39:46.383 [info] Starting Python Locator /home/azureuser/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/python-env-tools/bin/pet server
+2025-06-30 16:39:46.383 [info] Discovered env: /bin/python3
+2025-06-30 16:39:46.383 [info] Discovered env: /usr/bin/python3
+2025-06-30 16:39:46.383 [info] Locator Conda took 109.413183ms
+2025-06-30 16:39:46.383 [info] Locator Homebrew took 77.644µs
+2025-06-30 16:39:46.383 [info] Locator LinuxGlobal took 78.694957ms
+2025-06-30 16:39:46.383 [info] Locator PipEnv took 11.044µs
+2025-06-30 16:39:46.383 [info] Locator Poetry took 3.674394ms
+2025-06-30 16:39:46.383 [info] Locator PyEnv took 2.605071ms
+2025-06-30 16:39:46.383 [info] Locator Venv took 9.107µs
+2025-06-30 16:39:46.383 [info] Locator VirtualEnv took 9.261µs
+2025-06-30 16:39:46.383 [info] Locator VirtualEnvWrapper took 11.645µs
+2025-06-30 16:39:46.383 [info] Locator GlobalVirtualEnvs took 76.177µs
+2025-06-30 16:39:46.383 [info] Locator Locators took 115.179398ms
+2025-06-30 16:39:46.383 [info] Locator Path took 159.13023ms
+2025-06-30 16:39:46.383 [info] Locator Workspaces took 779ns
+2025-06-30 16:39:46.383 [info] Refresh completed in 163ms
+2025-06-30 16:39:46.403 [info] Discovered env: /bin/python3
+2025-06-30 16:39:46.404 [info] Discovered env: /usr/bin/python3
+2025-06-30 16:39:46.404 [info] Locator Conda took 43.062576ms
+2025-06-30 16:39:46.404 [info] Locator Homebrew took 40.39µs
+2025-06-30 16:39:46.404 [info] Locator LinuxGlobal took 51.617594ms
+2025-06-30 16:39:46.404 [info] Locator PipEnv took 9.16µs
+2025-06-30 16:39:46.404 [info] Locator Poetry took 49.085µs
+2025-06-30 16:39:46.404 [info] Locator PyEnv took 73.761µs
+2025-06-30 16:39:46.404 [info] Locator Venv took 8.119µs
+2025-06-30 16:39:46.404 [info] Locator VirtualEnv took 7.879µs
+2025-06-30 16:39:46.404 [info] Locator VirtualEnvWrapper took 8.424µs
+2025-06-30 16:39:46.404 [info] Locator GlobalVirtualEnvs took 38.642µs
+2025-06-30 16:39:46.404 [info] Locator Locators took 54.602624ms
+2025-06-30 16:39:46.404 [info] Locator Path took 114.390968ms
+2025-06-30 16:39:46.404 [info] Locator Workspaces took 908ns
+2025-06-30 16:39:46.404 [info] Refresh completed in 114ms

@@ -1,0 +1,59 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-08f9b732-fa21-493a-9415-3f0236db1f46
+Extension host agent listening on /tmp/code-08f9b732-fa21-493a-9415-3f0236db1f46
+
+[16:39:38] 
+
+
+
+
+[16:39:38] Extension host agent started.
+[16:39:39] [<unknown>][46cde3fd][ExtensionHostConnection] New connection established.
+[16:39:39] [<unknown>][8ef849a6][ManagementConnection] New connection established.
+[16:39:39] [<unknown>][46cde3fd][ExtensionHostConnection] <26859> Launched Extension Host Process.
+[16:39:48] Getting Manifest... ms-python.python
+[16:39:48] Getting Manifest... ms-python.vscode-pylance
+[16:39:48] Installing extension: ms-python.vscode-pylance {
+  productVersion: { version: '1.101.2', date: '2025-06-24T20:27:57.062Z' },
+  pinned: false,
+  isApplicationScoped: false,
+  context: { clientTargetPlatform: 'win32-x64' },
+  installOnlyNewlyAddedFromExtensionPack: true,
+  profileLocation: $ {
+    scheme: 'file',
+    authority: '',
+    path: '/home/azureuser/.vscode-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/azureuser/.vscode-server/extensions/extensions.json',
+    _fsPath: '/home/azureuser/.vscode-server/extensions/extensions.json'
+  }
+}
+[16:39:48] Installing extension: ms-python.python {
+  productVersion: { version: '1.101.2', date: '2025-06-24T20:27:57.062Z' },
+  pinned: false,
+  isApplicationScoped: false,
+  context: { clientTargetPlatform: 'win32-x64' },
+  installOnlyNewlyAddedFromExtensionPack: true,
+  profileLocation: $ {
+    scheme: 'file',
+    authority: '',
+    path: '/home/azureuser/.vscode-server/extensions/extensions.json',
+    query: '',
+    fragment: '',
+    _formatted: 'file:///home/azureuser/.vscode-server/extensions/extensions.json',
+    _fsPath: '/home/azureuser/.vscode-server/extensions/extensions.json'
+  }
+}
+[16:39:50] Getting Manifest... ms-python.python
+[16:39:50] Waiting for already requested installing extension ms-python.python ms-python.vscode-pylance file:///home/azureuser/.vscode-server/extensions/extensions.json
+[16:46:47] No ptyHost heartbeat after 6 seconds
+New EH opened, aborting shutdown
+[16:48:14] New EH opened, aborting shutdown
+[16:54:16] No ptyHost heartbeat after 6 seconds

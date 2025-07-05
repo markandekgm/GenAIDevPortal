@@ -1,0 +1,5 @@
+{
+    "remote.SSH.remotePlatform": {
+        "azure-vm": "linux"
+    }
+}

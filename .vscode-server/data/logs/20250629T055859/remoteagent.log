@@ -1,0 +1,175 @@
+2025-06-29 05:58:59.489 [info] 
+
+
+
+
+2025-06-29 05:58:59.500 [info] Extension host agent started.
+2025-06-29 05:58:59.545 [info] Started initializing default profile extensions in extensions installation folder. file:///home/azureuser/.vscode-server/extensions
+2025-06-29 05:58:59.565 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/azureuser/.vscode-server/extensions
+2025-06-29 05:58:59.985 [info] [<unknown>][039abd51][ManagementConnection] New connection established.
+2025-06-29 05:58:59.987 [info] [<unknown>][6963e7b0][ExtensionHostConnection] New connection established.
+2025-06-29 05:59:00.069 [info] [<unknown>][6963e7b0][ExtensionHostConnection] <13140> Launched Extension Host Process.
+2025-06-29 06:02:14.478 [info] [<unknown>][039abd51][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-06-29 06:02:14.503 [info] [<unknown>][6963e7b0][ExtensionHostConnection] <13140> Extension Host Process exited with code: 0, signal: null.
+2025-06-29 06:02:14.504 [info] Cancelling previous shutdown timeout
+2025-06-29 06:02:14.504 [info] Last EH closed, waiting before shutting down
+2025-06-29 06:02:27.446 [info] [<unknown>][27a0778a][ExtensionHostConnection] New connection established.
+2025-06-29 06:02:27.449 [info] [<unknown>][27a0778a][ExtensionHostConnection] <13320> Launched Extension Host Process.
+2025-06-29 06:02:27.455 [info] [<unknown>][2a1a889f][ManagementConnection] New connection established.
+2025-06-29 06:06:13.198 [info] [<unknown>][debebe6a][ExtensionHostConnection] New connection established.
+2025-06-29 06:06:13.201 [info] [<unknown>][0520a9f4][ManagementConnection] New connection established.
+2025-06-29 06:06:13.205 [info] [<unknown>][debebe6a][ExtensionHostConnection] <13479> Launched Extension Host Process.
+2025-06-29 06:06:13.209 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/server/node/server.main.js:198:6390)
+    at process.emit (node:events:531:35)
+2025-06-29 06:07:14.505 [info] New EH opened, aborting shutdown
+2025-06-29 06:47:44.603 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-29 06:49:27.154 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-29 06:55:45.169 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-29 06:58:02.677 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-29 06:58:08.370 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:31232)
+    at L.updateIcon (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26482)
+    at I.A.<computed> (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21704)
+    at Object.call (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5378)
+    at l.s (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5507)
+    at l.q (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4948)
+    at b.value (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4248)
+    at n.B (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.be (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11119)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-06-29 06:58:08.482 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:31232)
+    at L.updateTitle (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26432)
+    at I.A.<computed> (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21704)
+    at Object.call (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5378)
+    at l.s (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5507)
+    at l.q (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4948)
+    at b.value (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4248)
+    at n.B (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.be (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11119)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-06-29 06:58:08.489 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:31232)
+    at L.updateTitle (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26432)
+    at I.A.<computed> (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21704)
+    at Object.call (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5378)
+    at l.s (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5507)
+    at l.q (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4948)
+    at b.value (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4248)
+    at n.B (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.be (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11119)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-06-29 07:14:32.490 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-29 07:15:22.490 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-29 07:15:46.983 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-29 07:17:46.393 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-29 07:22:42.196 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-29 07:44:42.911 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-29 07:51:14.021 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-29 07:51:17.562 [info] [<unknown>][0520a9f4][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-06-29 07:51:36.112 [info] [<unknown>][2a1a889f][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-06-29 10:32:53.009 [info] [<unknown>][2a1a889f][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-06-29 10:32:53.011 [info] [<unknown>][0520a9f4][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-06-29 10:32:53.013 [info] [<unknown>][0520a9f4][ManagementConnection] The client has reconnected.
+2025-06-29 10:32:53.014 [info] [<unknown>][debebe6a][ExtensionHostConnection] The client has reconnected.
+2025-06-29 10:32:54.254 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:31232)
+    at L.updateTitle (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26432)
+    at I.A.<computed> (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21704)
+    at Object.call (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5378)
+    at l.s (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5507)
+    at l.q (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4948)
+    at b.value (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4248)
+    at n.B (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.be (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11119)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-06-29 10:32:54.255 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:31232)
+    at L.updateIcon (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26482)
+    at I.A.<computed> (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21704)
+    at Object.call (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5378)
+    at l.s (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5507)
+    at l.q (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4948)
+    at b.value (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4248)
+    at n.B (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.be (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11119)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-06-29 10:32:54.255 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:31232)
+    at L.updateIcon (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26482)
+    at I.A.<computed> (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21704)
+    at Object.call (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5378)
+    at l.s (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5507)
+    at l.q (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4948)
+    at b.value (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4248)
+    at n.B (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.be (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11119)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-06-29 10:32:54.256 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:31232)
+    at L.updateTitle (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26432)
+    at I.A.<computed> (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21704)
+    at Object.call (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5378)
+    at l.s (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5507)
+    at l.q (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4948)
+    at b.value (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4248)
+    at n.B (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.be (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11119)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-06-29 10:32:54.256 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:31232)
+    at L.updateTitle (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26432)
+    at I.A.<computed> (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21704)
+    at Object.call (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5378)
+    at l.s (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5507)
+    at l.q (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4948)
+    at b.value (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4248)
+    at n.B (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.be (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11119)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-06-29 10:32:54.256 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:31232)
+    at L.updateTitle (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:26432)
+    at I.A.<computed> (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:54:21704)
+    at Object.call (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5378)
+    at l.s (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5507)
+    at l.q (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4948)
+    at b.value (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4248)
+    at n.B (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.be (/home/azureuser/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11119)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2025-06-29 10:37:53.128 [info] [<unknown>][2a1a889f][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-06-29 10:37:53.146 [info] [<unknown>][27a0778a][ExtensionHostConnection] <13320> Extension Host Process exited with code: 0, signal: null.
+2025-06-29 10:41:27.753 [info] [<unknown>][0520a9f4][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-06-29 13:41:08.593 [info] [<unknown>][debebe6a][ExtensionHostConnection] <13479> Extension Host Process exited with code: 0, signal: null.
+2025-06-29 13:41:08.593 [info] Last EH closed, waiting before shutting down
+2025-06-29 13:41:38.712 [info] [<unknown>][0520a9f4][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2025-06-29 13:46:08.594 [info] Last EH closed, shutting down

@@ -1,0 +1,52 @@
+2025-06-30 16:39:46.383 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-06-30 16:39:46.383 [info] Native locator: Refresh started
+2025-06-30 16:39:46.383 [info] Native locator: Refresh finished in 368 ms
+2025-06-30 16:39:46.383 [info] Native locator: Refresh started
+2025-06-30 16:39:46.383 [info] > pixi --version
+2025-06-30 16:39:46.383 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-06-30 16:39:46.390 [info] > C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe -c "import sys;print(sys.executable)"
+2025-06-30 16:39:46.393 [error] [Error: Command failed: C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe -c "import sys;print(sys.executable)"
+/bin/sh: 1: C:Usersmarkrish2AppDataLocalProgramsPythonPython313python.exe: not found
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:519:28)
+	at Pipe.<anonymous> (node:net:338:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\markrish2\\AppData\\Local\\Programs\\Python\\Python313\\python.exe -c "import sys;print(sys.executable)"'
+}
+2025-06-30 16:39:46.395 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-06-30 16:39:46.404 [info] Native locator: Refresh finished in 995 ms
+2025-06-30 16:39:46.583 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-06-30 16:39:46.810 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-06-30 16:39:46.812 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-06-30 16:39:46.814 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-06-30 16:39:49.338 [info] Starting Pylance language server.
+2025-06-30 16:39:49.358 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-06-30 16:39:49.384 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-06-30 16:39:49.410 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-06-30 16:39:49.423 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-06-30 16:39:49.426 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-06-30 16:46:25.380 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-07-01 02:19:46.437 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-07-01 02:19:46.472 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-07-01 02:19:46.493 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-07-01 02:19:46.504 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-07-01 04:38:01.255 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-07-01 04:38:01.259 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-07-01 04:38:01.266 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-07-01 04:38:01.270 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-07-01 10:01:47.065 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-07-01 10:01:47.067 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-07-01 10:01:47.071 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-07-01 10:01:47.082 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-07-01 15:37:51.855 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-07-01 15:37:51.904 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-07-01 15:37:51.907 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe
+2025-07-01 15:37:51.909 [warning] could not find a pixi interpreter for the interpreter at C:\Users\markrish2\AppData\Local\Programs\Python\Python313\python.exe

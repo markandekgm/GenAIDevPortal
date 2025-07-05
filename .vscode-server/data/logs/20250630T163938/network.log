@@ -1,0 +1,4 @@
+2025-06-30 16:39:39.871 [error] node #1: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET getaddrinfo ENOTFOUND az764295.vo.msecnd.net
+2025-06-30 18:04:14.601 [error] node #12: https://ms-python.gallery.vsassets.io/_apis/public/gallery/publisher/ms-python/extension/vscode-pylance/2025.6.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?redirect=true&update=true - error GET AggregateError [ETIMEDOUT]: 
+2025-06-30 18:07:24.507 [error] node #14: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST write ECONNRESET
+2025-06-30 18:07:40.009 [error] node #13: https://ms-python.gallery.vsassets.io/_apis/public/gallery/publisher/ms-python/extension/vscode-pylance/2025.6.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage?update=true - error GET read ECONNRESET
